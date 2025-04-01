@@ -86,6 +86,15 @@
 	</dependencies>
 
 	<build>
+		<sourceDirectory>backend/src/main/java</sourceDirectory>
+		<testSourceDirectory>backend/src/test/java</testSourceDirectory>
+		<directory>backend/target</directory>
+		<resources>
+			<resource>
+				<directory>backend/src/main/resources</directory>
+			</resource>
+		</resources>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
